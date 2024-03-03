@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="welcome-box">
+            <label class="welcome-label">Hello Bruno, welcome to Guess The Animal</label>
+        </div>
+
+        <div class="guessing-box" id="guessing-box">  
+        </div>
+
+        <div class="question-box">
+            <div class="question-box-image shadow">
+                <img width="400px" src="">
+            </div>
+            <div class="question-box-letter">
+                <label class="big-input-label" for="big-input">Make your choise</label>
+                <input class="big-input" id="letterInput" onkeyup="setLetter()" placeholder="?" maxlength="1" minlength="1">
+            </div>
+        </div>
+
+        <div class="guess-box" id="guess-box">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        onLoad();
+    </script>
+</body>
+</html>

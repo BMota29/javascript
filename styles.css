@@ -1,0 +1,100 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.welcome-box {
+    min-width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.welcome-label {
+    font-size: xx-large;
+    margin-top: 6px;
+}
+
+.guessing-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.guessing-letter {
+    border: 1px solid black;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 0.2em;
+    color: rgb(72, 72, 72);
+}
+
+.question-box {
+    min-width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.question-box-letter {
+    width: 150px;
+    background-color: aqua;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.question-box-image {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 0.2em;
+}
+
+.guess-box {
+    min-width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.missed-letter {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgb(93, 93, 93);
+    border-color: rgb(93, 93, 93);
+}
+
+.shadow {
+    box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+}
+
+input.big-input {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+}
+
+label.big-input-label {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 25px;
+}
